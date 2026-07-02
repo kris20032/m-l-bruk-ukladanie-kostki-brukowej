@@ -609,6 +609,8 @@ section{padding-block:clamp(64px,8vw,128px)}
 }
 
 /* === focal-point zdjęć (smartcrop) — cover nie utnie twarzy/obiektu === */
+img[src$="/hero.jpg"]{object-position:64% 50%}
+[style*="hero.jpg"]{background-position:64% 50%}
 img[src$="/about.jpg"]{object-position:33% 50%}
 [style*="about.jpg"]{background-position:33% 50%}
 img[src$="/g1.jpg"]{object-position:38% 50%}
@@ -627,5 +629,7 @@ img[src$="/g8.jpg"]{object-position:38% 50%}
 [style*="g8.jpg"]{background-position:38% 50%}
 img[src$="/g9.jpg"]{object-position:62% 50%}
 [style*="g9.jpg"]{background-position:62% 50%}
+img[src$="/g11.jpg"]{object-position:38% 50%}
+[style*="g11.jpg"]{background-position:38% 50%}
 img[src$="/g12.jpg"]{object-position:35% 52%}
 [style*="g12.jpg"]{background-position:35% 52%}
